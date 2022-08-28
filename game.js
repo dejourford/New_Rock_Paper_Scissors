@@ -16,8 +16,8 @@ return prompt('Which do you choose? Rock, Paper, or Scissors?').toLowerCase()
 
 
 let game_over = false;
-let user_choice = get_user_choice();
-let cpu_choice = get_computer_choice();
+let user_choice
+let cpu_choice 
 
 //compare choices and declare winner//
 function declare_winner(user_choice, cpu_choice)
