@@ -55,7 +55,10 @@ else if (cpu_choice == "scissors" && user_choice == "paper")
 {
     console.log('You Lose!')
 }
-
+else
+{
+    console.log('You entered an invalid option!')
+}
 let play_again = prompt('Do you want to play again? Type "Yes" or "No".').toLowerCase()
 if (play_again == "yes")
 {
